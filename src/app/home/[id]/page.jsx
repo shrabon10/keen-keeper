@@ -65,13 +65,13 @@ const PageId = async ({ params }) => {
                         <p className="text-xs text-gray-400 mt-1">{email}</p>
                     </div>
 
-                    <button className="w-full bg-white p-3 rounded-lg shadow flex items-center justify-center gap-2 font-medium">
+                    <button className="btn w-full bg-white p-3 rounded-lg shadow flex items-center justify-center gap-2 font-medium">
                         <LiaSnapchatGhost /> Snooze 2 Weeks
                     </button>
-                    <button className="w-full bg-white p-3 rounded-lg shadow flex items-center justify-center gap-2 font-medium">
+                    <button className="btn w-full bg-white p-3 rounded-lg shadow flex items-center justify-center gap-2 font-medium">
                         <FaArchive /> Archive
                     </button>
-                    <button className="w-full bg-white p-3 rounded-lg shadow text-red-500 flex items-center justify-center gap-2 font-medium">
+                    <button className="btn w-full bg-white p-3 rounded-lg shadow text-red-500 flex items-center justify-center gap-2 font-medium">
                         <AiOutlineDelete /> Delete
                     </button>
                 </div>
