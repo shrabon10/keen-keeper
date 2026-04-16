@@ -65,24 +65,17 @@ src/
 ---
 
 ## Features
+1. 🔄 Dynamic Routing with Scalable Structure
 
-* **Dynamic Routing**
-  Enables navigation to individual pages using parameterized routes.
+KeenKeeper uses Next.js App Router with dynamic routes like /home/[id], allowing users to navigate to detailed views efficiently. This structure supports scalability and clean URL management, which is essential for real-world applications.
 
-* **Global Loading UI**
-  Implements a centralized loading state using Next.js `loading.jsx`.
+2. ⚡ Optimized User Experience with Loading UI
 
-* **Component-Based Design**
-  Reusable and maintainable UI components.
+The project implements a global loading state (loading.jsx), providing instant visual feedback during route transitions. This improves perceived performance and ensures a smooth user experience even when data fetching takes time.
 
-* **Context API Integration**
-  Efficient global state handling without external libraries.
+3. 🧩 Component-Based Architecture with Global State Management
 
-* **Responsive UI**
-  Mobile-first design using Tailwind CSS.
-
-* **Optimized Navigation**
-  Fast client-side transitions powered by Next.js App Router.
+Built using reusable components (Card, Navbar, Footer, etc.) and powered by the Context API, the app maintains a clean separation of concerns. This makes the codebase easier to maintain, extend, and scale in larger applications.
 
 ---
 
