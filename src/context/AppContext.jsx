@@ -1,8 +1,8 @@
 "use client";
 import { createContext, useEffect, useState } from "react";
 
-export const InstallAppsContext = createContext();
 
+export const InstallAppsContext = createContext();
 export const InstalledAppsProvider = ({ children }) => {
     const [timeline, setTimeline] = useState([]);
 

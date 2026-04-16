@@ -1,9 +1,7 @@
 "use client";
-
 import { InstallAppsContext } from '@/context/AppContext';
-import React, { useContext, useState } from 'react';
+import React, { useContext, useState }  from 'react';
 import { BiChevronDown } from 'react-icons/bi';
-
 
 const TimelinePage = () => {
     const [filter, setFilter] = useState("all");
@@ -77,7 +75,7 @@ const TimelinePage = () => {
             
             {filteredTimeline.length === 0 ? (
                 <p className="text-gray-500 text-center">
-                    No interactions found 😢
+                    No interactions found!!!
                 </p>
             ) : (
                 <div className="space-y-4">

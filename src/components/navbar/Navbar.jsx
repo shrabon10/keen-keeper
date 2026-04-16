@@ -2,6 +2,7 @@ import { FaHome } from "react-icons/fa";
 import { ImStatsDots } from "react-icons/im";
 import { MdAvTimer } from "react-icons/md";
 import MyLink from "./MyLink";
+import Link from "next/link";
 
 const Navbar = () => {
 
@@ -27,10 +28,10 @@ const Navbar = () => {
         <>
 
             <div className='navbar shadow-sm'>
-                <div className="flex justify-between w-11/12 mx-auto">
+                <div className="flex justify-between   w-11/12 mx-auto">
 
-                    <div className="font-bold text-4xl">
-                        <a className="btn btn-ghost text-xl">Keen<span className='text-green-400'>Keeper</span></a>
+                    <div className="">
+                        <Link href="./"><button className='text-2xl font-bold'>Keen<span className='text-green-800'>Keeper</span></button></Link>
                     </div>
                     <div className="flex ">
                         <ul className=" flex gap-4 items-center">

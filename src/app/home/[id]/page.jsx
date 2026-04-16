@@ -1,4 +1,4 @@
-import QuickCheckIn from "@/components/clickbtn/QuickCheckIn"
+import QuickCheckIn from "@/components/clickbtn/QuickCheckIn";
 import { AiOutlineDelete } from "react-icons/ai";
 import { FaArchive } from "react-icons/fa";
 import { LiaSnapchatGhost } from "react-icons/lia";
